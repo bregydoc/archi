@@ -9,7 +9,7 @@ export const ArchiMockup = {
       to: [1, 1],
       layer: 0,
       meta: {
-        color: "red"
+        color: "primary"
       }
     },
     {
@@ -19,7 +19,17 @@ export const ArchiMockup = {
       to: [4, 3],
       layer: 0,
       meta: {
-        color: "blue"
+        color: "secondary"
+      }
+    },
+    {
+      id: "1",
+      type: elements.BLOCK,
+      from: [4, 4],
+      to: [5, 6],
+      layer: 0,
+      meta: {
+        color: "ternary"
       }
     },
     {

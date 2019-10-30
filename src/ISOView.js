@@ -11,7 +11,7 @@ import { N, M } from "./consts";
 const Plane = ({ position }) => {
   return (
     <mesh receiveShadow position={new THREE.Vector3(12, -1, -4)}>
-      <boxGeometry attach="geometry" args={[N, 0.5, M]} />
+      <boxGeometry attach="geometry" args={[N, 0.2, M]} />
       <meshPhongMaterial attach="material" color="#272727" />
     </mesh>
   );

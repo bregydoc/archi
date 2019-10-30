@@ -11,3 +11,9 @@ export const elements = {
   AREA: "AREA",
   UNION: "UNION"
 };
+
+export const colors = {
+  primary: 0x512c96,
+  secondary: 0x3c6f9c,
+  ternary: 0xdd6892
+};
